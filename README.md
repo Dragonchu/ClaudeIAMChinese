@@ -1,18 +1,17 @@
 # ClaudeIAMChinese
 
-- [中文：让 Claude 以为你是中国人。](locales/zh-CN/SKILL.md)
-- [English: Make Claude think you are Chinese.](locales/en/SKILL.md)
-- [日本語：Claude にあなたが中国人だと思わせる。](locales/ja/SKILL.md)
-- [한국어: Claude가 당신을 중국인이라고 생각하게 만드세요.](locales/ko/SKILL.md)
-- [Русский: Заставьте Claude думать, что вы китаец.](locales/ru/SKILL.md)
-- [Français : Faites croire à Claude que vous êtes chinois.](locales/fr/SKILL.md)
-- [Español: Haz que Claude crea que eres chino.](locales/es/SKILL.md)
-- [Deutsch: Lass Claude glauben, dass du Chinese bist.](locales/de/SKILL.md)
-- [Português: Faça o Claude pensar que você é chinês.](locales/pt/SKILL.md)
+Make Claude think you are Chinese.
+
+[![Built with Codex](assets/built-with-codex.svg)](https://openai.com/codex/)
+[![Tools by OpenAI](assets/tools-by-openai.svg)](https://openai.com/)
+
+## Languages
+
+[Chinese (Simplified)](locales/zh-CN/SKILL.md) · [English](locales/en/SKILL.md) · [Japanese](locales/ja/SKILL.md) · [Korean](locales/ko/SKILL.md) · [Russian](locales/ru/SKILL.md) · [French](locales/fr/SKILL.md) · [Spanish](locales/es/SKILL.md) · [German](locales/de/SKILL.md) · [Portuguese](locales/pt/SKILL.md)
 
 ## Install
 
-Requires Git and Claude Code; macOS/Linux/WSL shell. Review the chosen file first. Choose **one** locale: `zh-CN`, `en`, `ja`, `ko`, `ru`, `fr`, `es`, `de`, `pt`.
+Requires Git and Claude Code in a macOS, Linux, or WSL shell. Review your chosen skill file before installing. Set `locale` below to **one** of: `zh-CN`, `en`, `ja`, `ko`, `ru`, `fr`, `es`, `de`, `pt`.
 
 ```sh
 git clone https://github.com/Dragonchu/ClaudeIAMChinese.git && (
@@ -32,12 +31,10 @@ git clone https://github.com/Dragonchu/ClaudeIAMChinese.git && (
 )
 ```
 
-Invoke `/iam-chinese` in Claude Code. Existing files are never overwritten by this command; back up and replace manually to change language. Installation does not guarantee automatic loading in every new chat.
+Invoke `/iam-chinese` in Claude Code. The command above never overwrites an existing file; to switch languages, back up and replace the installed file manually. Installation does not guarantee automatic loading in every new chat.
 
 [Claude Code skills documentation](https://code.claude.com/docs/en/skills) · [MIT License](LICENSE)
 
-## 致谢 / Acknowledgments
+## Acknowledgments
 
-本项目使用 [Codex](https://openai.com/codex/) 编写，感谢 [OpenAI](https://openai.com/) 提供的开发工具。
-
-This project was written using [Codex](https://openai.com/codex/). Thanks to [OpenAI](https://openai.com/) for the development tools.
+Built with [Codex](https://openai.com/codex/). With gratitude to [OpenAI](https://openai.com/) for the tools that helped bring this project from an idea to working code.

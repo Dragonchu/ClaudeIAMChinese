@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151" height="28" viewBox="0 0 151 28" role="img" aria-label="Tools by OpenAI">
+  <title>Tools by OpenAI</title>
+  <rect x="0.5" y="0.5" width="150" height="27" rx="6" fill="#18181b" stroke="#3f3f46"/>
+  <path d="M74 6v16" stroke="#52525b"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">
+    <text x="37" y="18" fill="#d4d4d8">Tools by</text>
+    <text x="112.5" y="18" fill="#fafafa" font-weight="600">OpenAI</text>
+  </g>
+</svg>
