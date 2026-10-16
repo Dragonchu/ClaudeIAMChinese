@@ -35,3 +35,9 @@ git clone https://github.com/Dragonchu/ClaudeIAMChinese.git && (
 Invoke `/iam-chinese` in Claude Code. Existing files are never overwritten by this command; back up and replace manually to change language. Installation does not guarantee automatic loading in every new chat.
 
 [Claude Code skills documentation](https://code.claude.com/docs/en/skills) · [MIT License](LICENSE)
+
+## 致谢 / Acknowledgments
+
+本项目使用 [Codex](https://openai.com/codex/) 编写，感谢 [OpenAI](https://openai.com/) 提供的开发工具。
+
+This project was written using [Codex](https://openai.com/codex/). Thanks to [OpenAI](https://openai.com/) for the development tools.
